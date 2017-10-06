@@ -33,7 +33,12 @@ int main()
    //    printf("no\n");
    // }
 
-   PrimeFactorization(15);
+   Int n = DEFAULT_INITIALIZATION;
+
+   printf("Please enter number to factor: ");
+   scanf("%d", &n);
+   
+   PrimeFactorization(n);
 
    return EXIT_SUCCESS;
 }
